@@ -406,3 +406,150 @@
 .clases-iconos i {
     font-size: 28px;
 }
+
+.aplicacion {
+    background-color: #fff0d2;
+    width: 100%;
+    margin: 20px 0 0;
+}
+
+.contenedor-aplicacion {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-aplicacion h2 {
+    font-family: 'Gotham-Bold', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #333;
+}
+
+.aplicacion-texto>p {
+    font-family: 'Gotham Light', sans-serif;
+    font-weight: bold;
+}
+
+.aplicacion-texto {
+    width: 30%;
+}
+
+.contenedor-naranja {
+    width: 50%;
+    height: 280px;
+    align-self: end;
+    display: flex;
+    align-items: end;
+    background-color: #ffb612;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedor-naranja img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.aplicacion-imagenes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.qr {
+    width: 113px;
+    height: 113px;
+}
+
+.playstore {
+    background-color: white;
+}
+
+.app img {
+    width: 135px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.texto-qr {
+    font-size: 15px;
+    font-family: 'Gotham Light', sans-serif;
+    font-weight: bold;
+}
+
+.ficha-coach {
+    margin: 0 auto;
+    width: 230px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ficha-coach img {
+    width: 176px;
+    height: 64px;
+}
+
+.ficha-coach>h3 {
+    font-size: 20px;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+.ficha-coach>p {
+    padding-bottom: 20px;
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #656565;
+}
+
+.precio>h3 {
+    font-family: 'Gotham-Black', sans-serif;
+    font-size: 37px;
+}
+
+.no-agrandar {
+    font-size: 15px;
+}
+
+.estancia {
+    font-size: 10px;
+    font-family: 'Gotham Light', sans-serif;
+    text-align: center;
+}
+
+.caja-naranja {
+    background-color: #ffad12;
+    text-align: center;
+    border-radius: 26px;
+}
+
+.caja-naranja p {
+    font-size: 14px;
+    font-family: 'Gotham Medium', sans-serif;
+    padding: 10px 0;
+}
+
+.precio {
+    border-top: 0.9px solid #e1e1e1;
+}
+
+.footer {
+    color: #000000;
+    background: #000000;
+    padding: 45px 20px 90px;
+    font: 'Gotham Medium';
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer-terminos-condiciones {
+    color: #fff;
+}
+
+}
