@@ -1,7 +1,7 @@
 /* Añadir fuentes */
 @font-face {
     font-family: 'Gotham Medium';
-    src: url('../FONT/GothamMedium.ttf') format('truetype');
+    src: url('../font/GothamMedium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -274,4 +274,135 @@
     border-radius: 26px;
     width: max-content;
     font-family: 'Gotham Medium', sans-serif;
+}
+
+/* Experiencia */
+.lista-experiencia {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.lista-experiencia li {
+    border-radius: 10px 10px 0 0
+}
+
+.lista-experiencia img {
+    border-radius: 10px 10px 0 0;
+}
+
+.lista-experiencia p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gotham Light', sans-serif;
+    font-weight: bold;
+}
+
+.experiencia-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gotham Black', sans-serif;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.experiencia-texto h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.experiencia-texto span {
+    color: #ffad12;
+}
+
+/* Clases */
+.clases-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+.clases-titulo h2 {
+    font-size: 30px;
+}
+
+.clases-titulo span {
+    color: #ffad12;
+}
+
+.lista-clases {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.lista-clases li {
+    width: 285px;
+}
+
+.lista-clases img {
+    height: 170px;
+    width: 285px;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido {
+    position: relative;
+}
+
+.prueba {
+    background-color: #ffad12;
+    font-family: 'Gotham Medium', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 8px 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.clases-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.clases-texto>p {
+    font-family: 'Gotham Light', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.clases-iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.clases-iconos li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+}
+
+.clases-iconos p {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Gotham Medium', sans-serif;
+}
+
+.clases-iconos i {
+    font-size: 28px;
 }
