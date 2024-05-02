@@ -6,6 +6,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('../font/Gotham-Light.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('../font/Gotham-Black.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../font/Gotham-Bold.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 /* Navbar */
 .navbar {
     display: flex;
@@ -44,6 +65,8 @@
     color: #FFFFFF;
 }
 
+/* Main */
+
 .imagen img {
     width: 100%;
     border-radius: 16px;
@@ -51,4 +74,204 @@
 
 .imagen {
     margin: 0 22px;
+}
+
+.buscatusede-fondo {
+    border-radius: 1rem;
+    background-image: url(https://assets.smartfit.com.br/images/new_home_cl/hero.jpeg);
+    background-position: 50%;
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.buscatusede-fondo a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Gotham Medium', sans-serif;
+    background-color: #FFFFFF;
+    width: 365px;
+    padding: 14px 25px;
+    border-radius: 46px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.buscatusede-fondo i {
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    font-size: 24px;
+}
+
+.buscatusede-texto h2 {
+    font-size: 30px;
+}
+
+.buscatusede-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+.buscatusede-texto span {
+    color: #ffad12;
+}
+
+/* Tabla */
+.tabla {
+    width: 100%;
+    max-width: 1140px;
+    margin: 50px auto 30px;
+    padding: 0 16px;
+}
+
+.tabla ul {
+    list-style: none;
+}
+
+.contenedor-columnas {
+    display: flex;
+    padding: 0;
+}
+
+.contenedor-columnas p {
+    margin: 0 0 5px;
+}
+
+.tabla-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gotham Black', sans-serif;
+    font-size: 30px;
+}
+
+.primer-columna {
+    flex-grow: 1;
+    font-family: 'Gotham Medium', sans-serif;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-top: 10px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
+.columnas-arriba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+.columnas-medio {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.columnas-abajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 135px;
+    padding: 12px 8px;
+}
+
+.columnas li {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 1px solid #999;
+}
+
+.columnas li:not(.primer-columna li) {
+    justify-content: center;
+}
+
+.columnas i {
+    font-size: 22px;
+}
+
+.columnas h3 {
+    margin: 6px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columnas:not(:first-child) {
+    font-family: 'Gotham Light', sans-serif;
+}
+
+.columnas-medio>li:first-child {
+    border-top: 1px solid #999;
+}
+
+.columnas span {
+    font-family: 'Gotham Bold', sans-serif;
+}
+
+.correcto {
+    color: #0FA826;
+}
+
+.borde-naranjo {
+    border: 2px solid #ffad12;
+    border-radius: 12px;
+    position: relative;
+}
+
+.borde-naranjo h5 {
+    position: absolute;
+    top: -13px;
+    left: -6px;
+    margin: 0;
+    background-color: #ffad12;
+    padding: 2px 4px;
+}
+
+.letra-pequeña {
+    font-size: 13px;
+    text-align: center;
+}
+
+.meses {
+    padding-top: 30px;
+}
+
+.tabla-texto span {
+    color: #ffad12;
+}
+
+.tabla-circulo-rojo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla-circulo-rojo p {
+    background-color: #d52b1e;
+    color: #FFFFFF;
+    padding: 12px 105px;
+    border-radius: 26px;
+    width: max-content;
+    font-family: 'Gotham Medium', sans-serif;
 }
