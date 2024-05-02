@@ -27,6 +27,11 @@
     font-style: normal;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Navbar */
 .navbar {
     display: flex;
@@ -484,18 +489,24 @@
     margin: 0 auto;
     width: 230px;
     border: 1px solid gray;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    outline: 2px solid transparent;
+    box-shadow: 0 3px 17px;
+    transition: .25s;
+    margin-bottom: 50px;
 }
 
 .ficha-coach img {
     width: 176px;
     height: 64px;
+    margin-left: 10px;
 }
 
 .ficha-coach>h3 {
     font-size: 20px;
     font-family: 'Gotham Black', sans-serif;
+    text-align: center;
 }
 
 .ficha-coach>p {
@@ -509,6 +520,7 @@
 .precio>h3 {
     font-family: 'Gotham-Black', sans-serif;
     font-size: 37px;
+    text-align: center;
 }
 
 .no-agrandar {
@@ -538,16 +550,79 @@
 }
 
 .footer {
-    color: #000000;
-    background: #000000;
-    padding: 45px 20px 90px;
-    font: 'Gotham Medium';
+    background-color: #000000;
 }
 
 .footer a {
-    color: #fff;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .footer-terminos-condiciones {
+    color: #FFF;
+}
+
+.footer section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #c2c2c2;
     color: #fff;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer-link h2 {
+    font-size: 20px;
+    font-family: 'Gotham Bold', sans-serif;
+}
+
+.footer-link li {
+    font-size: 14px;
+    font-family: 'Gotham Light', sans-serif;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    grid-gap: 100px;
+    gap: 100px;
+}
+
+.links ul {
+    padding: 0;
+}
+
+.font {
+    font-size: 14px;
+    font-family: 'Gotham Light', sans-serif;
+}
+
+.iconos h2 {
+    font-size: 20px;
+    font-family: 'Gotham Bold', sans-serif;
+}
+
+.footer-iconos {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer-iconos li {
+    margin: 0 5px;
+}
+
+.footer-iconos i {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+.margen {
+    margin: 20px 0;
 }
